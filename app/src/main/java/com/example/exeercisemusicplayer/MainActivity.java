@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity implements MediaController.M
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main, menu);
+        inflater.inflate(R.menu.menu, menu);
         return true;
     }
 
